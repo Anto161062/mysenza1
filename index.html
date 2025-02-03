@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salva il Contatto MySenza1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 350px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        .contact-link {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .phone {
+            color: #d9534f;
+            font-weight: bold;
+        }
+        .email {
+            color: #0275d8;
+            font-weight: bold;
+        }
+        .whatsapp {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .save-contact {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .save-contact:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Salva il Contatto MySenza1</h2>
+        
+        <a href="tel:+393717771328" class="contact-link phone">📞 Chiama o Salva: +39 371 7771328</a>
+        <a href="mailto:mysenza1@gmail.com" class="contact-link email">📧 Invia Email: mysenza1@gmail.com</a>
+        <a href="https://wa.me/393717771328" class="contact-link whatsapp">💬 Chatta su WhatsApp</a>
+        
+        <!-- Pulsante per scaricare il contatto -->
+        <a href="mysenza1.vcf" class="save-contact" download>📥 Salva Contatto</a>
+    </div>
+</body>
+</html>
