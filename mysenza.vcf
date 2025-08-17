@@ -1,8 +1,10 @@
 BEGIN:VCARD
 VERSION:3.0
+N:;MySenza;;;
 FN:MySenza
 ORG:MySenza
-TEL;TYPE=cell:+393717771328
-EMAIL:info@mysenza.bio
+TEL;TYPE=CELL,VOICE:+393717771328
+EMAIL;TYPE=WORK:info@mysenza.bio
+URL:https://anto161062.github.io/mysenza1/
+NOTE:Contatto salvato dal catalogo MySenza
 END:VCARD
-
